@@ -361,15 +361,6 @@ button {
   transition-delay: 0.06s;
 }
 
-@keyframes heartScale {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.25);
-  }
-}
-
 .like-icon .heart {
   transform-origin: center;
 }
@@ -378,17 +369,6 @@ button {
   animation: heartScale 0.3s ease-in 0.1s none;
 }
 
-@keyframes sparksFade {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 
 .like-icon.is-liked .sparks {
   animation: sparksFade 0.3s ease-in 0.3s none;
@@ -444,6 +424,7 @@ button {
     height: 28px;
     margin-right: 10px;
   }
+
   .footer__button button {
     padding: 15px;
     display: flex;
